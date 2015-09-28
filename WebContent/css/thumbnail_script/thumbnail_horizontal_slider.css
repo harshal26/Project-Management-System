@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{}
+#outer_container{margin:60px auto; width:775px; padding:0 10px; background:#000000; border:1px solid #999;box-shadow:2px 2px 5px 5px #333333;}
+#thumbScroller{position:relative; margin:auto;}
+#thumbScroller{width:775px;}
+#thumbScroller, #thumbScroller .container, #thumbScroller .content{height:170px;}
+#thumbScroller{overflow:hidden;}
+#thumbScroller .container{position:relative; left:0;}
+#thumbScroller .content{width:260px; float:left;}
+#thumbScroller .content div{padding:10px 15px; height:100%; font-family:Verdana, Geneva, sans-serif; font-size:13px;}
+#thumbScroller img{border:5px solid #fff;}

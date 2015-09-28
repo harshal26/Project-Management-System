@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+#bottom
+{
+	height:650px;
+	width:inherit;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#bottom1
+{
+	width:39%;
+	height:inherit;
+	float:left;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	margin-left:1%;
+	box-shadow:2px 2px #000000;
+}
+#bottom2
+{
+	margin-left:1%;
+	width:58%;
+	margin-right:1%;
+	height:inherit;
+	float:left;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	box-shadow:2px 2px #000000;
+	
+}
+
+
+
+
+

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.top
+{
+	width:inherit;
+	height:300px;	
+	
+	
+}	
+.logo_top
+{
+	width:300px;
+	height:inherit;
+	float:left;
+	background-color:#FFFFFF;
+	
+}
+.sliding_top
+{
+	width:700px;
+	height:inherit;
+	float:left;
+	
+}
+
+.bottom
+{
+	width:inherit;
+	height:300px;
+	
+
+}
+#bottom_1
+{
+	width:30%;
+	height:250px;
+	margin-top:25px;
+	margin-bottom:25px;	
+	float:left;
+	margin-left:7px;
+	border-radius:10px;
+	background-color:#FFFFFF;
+	box-shadow: 2px 3px 5px;
+}
+
+#bottom_2
+{
+	width:30%;
+	height:250px;
+	margin-top:25px;
+	margin-bottom:25px;	
+	background-color:#FFFFFF;
+	float:left;
+	margin-left:43px;
+	
+	border-radius:10px;
+	box-shadow: 2px 3px 5px;
+}
+#bottom_3
+{
+	width:30%;
+	height:250px;
+	margin-top:25px;
+	margin-bottom:25px;
+	background-color:#FFFFFF;
+	float:left;
+	margin-left:43px;
+	
+	border-radius:10px;
+	box-shadow: 2px 3px 5px;
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#inner_bottom
+{
+	width:990px;
+	margin:auto;
+	background-color:#FFFFFF;
+	font-size:24px;
+	border-radius:10px;
+	height:800px;
+
+}
+
+#left
+{
+	width:400px;
+	height:400px;
+	float:left;
+	border:double;
+	border-radius:10px;
+	margin-left:60px;
+
+
+}
+
+#right
+{
+	width:400px;
+	height:400px;
+	float:left;
+	border:double;
+	border-radius:10px;
+	margin-left:50px;	
+
+}

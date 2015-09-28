@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container
+{
+	width:1024px;
+	height:auto;
+	margin:auto;
+	margin-top:10px;
+	
+}
+.header
+{
+	width:auto;
+	height:70px;	
+	background-color:#FFFFFF;
+	border:ridge;
+	border-radius:10px;
+}
+
+.top
+{
+	width:inherit;
+	height:300px;	
+	margin-top:20px;
+	background-color:#FFFFFF;
+}	
+.logo_top
+{
+	width:300px;
+	height:inherit;
+	float:left;
+	
+	
+}
+.sliding_top
+{
+	width:724px;
+	height:inherit;	
+	float:left;
+	
+}
+
+.bottom
+{
+	width:inherit;
+	height:300px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+#bottom1
+{
+	width:60%;
+	height:inherit;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	float:left;
+	box-shadow: 2px 3px 5px;
+}
+#bottom2
+{
+	width:36%;
+	height:inherit;
+	background-color:#FFFFFF;
+	border-radius:10px;
+	float:left;
+	margin-left:2.5%;
+	box-shadow: 2px 3px 5px;
+}
+
+
+.footer
+{
+	width:inherit;
+	height:30px;
+	background-color:#FFFFFF;
+	border-radius:10px;
+}
+a{color:#1F1160;}
+a:hover{color:#FF0000;}
+

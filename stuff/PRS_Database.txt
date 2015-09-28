@@ -1,0 +1,72 @@
+tbl_role
+	id
+	rolename (students|faculty)
+		
+tbl_user
+	id (pk)
+	branchid (fk: tbl_branch)
+	roleid  (fk: tbl_role)
+	teamcode  (fk)
+	enrollment (unique)
+	password
+	email
+	firstname	
+	middlename
+	lastname
+	birthdate
+	gender
+	address
+	contactno
+	1 | - | - | 100170107026 | - | - | Harshal
+	2 | - | - | 100170107027 | - | - | Pratik
+
+tbl_faculty
+	id (pk)
+	branchid (fk: tbl_branch)
+	username
+	password
+	emailid
+	mobilenumber
+	ishead (Yes | No)
+
+tbl_branch
+	id (pk)
+	branchname
+	branchcode
+	1 | Electronics & Communications | EC
+
+tbl_team
+	id (pk)
+	teamid (fk)
+	facultyid (fk: tbl_faculty)
+	member1
+	member2
+	member3
+	createdby (unique)
+	isfacultyassigned (Yes | No)
+	creationdate
+	1 | EC_100170107026 | 100170107026,100170107027 | 1 | No | 1/8/2013
+
+tbl_project
+	id (pk)
+	teamid (fk: tbl_team)
+	projecttitle
+	projectdesc
+	projecttechnology (Java, J2EE | Struts etc..)
+	projecttype (IDP | UDP)
+	companyname
+	guidename
+	guidecontact
+	status (Pending | Approved | Rejected)
+	approvedby (fk: tbl_faculty)
+	creationdate
+	1 | 1 | ABC TITLE | ABC DESCRIPTION | IDP | TCS | Mehta Sir | 9876543212 | Pending | - | 1/8/2013
+
+tbl_notification
+	id (pk)
+	userid (fk: tbl_user)
+	notification
+	isread (Yes | No)
+	creationdate
+	1 | 1 | Project 'PROJECT_TITLE' is approved by 'USER_NAME' | No | 1/8/2013
+
